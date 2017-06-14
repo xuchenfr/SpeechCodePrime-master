@@ -12,7 +12,7 @@ from keras.layers.convolutional import Convolution1D, MaxPooling1D
 from keras.optimizers import SGD, Adadelta, Adagrad
 from keras.utils import np_utils, generic_utils
 from six.moves import range
-from keras.regularizers import l2,
+from keras.regularizers import l2
 import random
 from os.path import join, getsize
 
